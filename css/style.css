@@ -1,7 +1,7 @@
 /*labeled so i remember what it will look like on the page*/
 
 body {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: Arial, Verdana;
   background-color: #000000;
   color: #FFFFFF;
   margin: 20px 20px 0 20px; /* top right/left, none bottom */
@@ -49,17 +49,16 @@ div {
   background-color: #FF0000;
   text-align: right;
   margin-left: 50px;
-  border-bottom-width: 2px; 
-  border-left-width: 5px;
+  border-bottom: 2px solid #FFFFFF;
+  border-left: 5px solid #FFFFFF;
 }
 
-/* double check here */
 .blue {
   background-color: #0000FF;
   text-align: left;
   margin-right: 50px;
-  border-right-width: 5px;
-  border-top-width: 2px;
+  border-right: 5px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
 }
 
 .blue h2,
@@ -71,8 +70,8 @@ div {
   background-color: #FFFF00;
   text-align: right;
   margin-left: 50px;
-  border-bottom-width: 2px;
-  border-left-width: 5px;
+  border-bottom: 2px solid #FFFFFF;
+  border-left: 5px solid #FFFFFF;
 }
 
 .yellow p {
@@ -84,8 +83,8 @@ div {
   background-color: #00EB00;
   text-align: left;
   margin-right: 50px;
-  border-right-width: 5px;
-  border-top-width: 2px;
+  border-right: 5px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
 }
 
 /* 
@@ -110,4 +109,3 @@ footer p {
   text-align: right;
   padding: 15px 15px 15px 0; 
 }
-
