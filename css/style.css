@@ -86,7 +86,7 @@ div {
 
 
 .green {
-  background-color: #00EB00;
+  background-color: #028500;
   text-align: left;
   margin-right: 50px;
   border-bottom: none;
@@ -97,14 +97,14 @@ div {
 
 /* 
   Content modified with help from UMGPT with the prompt: "I ran it to WAVE and it's showing 
-   a contrast error, can you tell me what is wrong with my green div's paragraph text? I tried to fix it by darkening a little" - UMGPT 
+   a contrast error, can you tell me what is wrong with my green div's paragraph text? It's weird I also match with the screenshot output" - UMGPT 
    identified the white text on the green background as failing WCAG contrast and 
    suggested darkening it to #0D0D0D.
         UMGPT. (2026). UMGPT (GPT-5.6 Sol version) [Large language model].  
 */
 
 .green p {
-  color: #0D0D0D; 
+  color: #ffffff; 
 }
 
 footer {
